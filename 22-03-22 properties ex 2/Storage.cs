@@ -30,6 +30,14 @@ namespace _22_03_22_properties_ex_2
         {
             teller = 20;
             noemer = 10;
+            
+        }
+        public Storage(int OpvragenTeller, int OpvragenNoemer)
+        {
+
+            teller = OpvragenTeller;
+            noemer = OpvragenNoemer;
+            breuk = teller / noemer;
         }
     }
 }
